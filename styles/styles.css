@@ -1,0 +1,25 @@
+/* CSS Document */
+body {
+  background: #6595a3;
+  padding: 0 20px;
+  color: white;
+}
+
+/* Create span rule here to make error messages bold and red */
+
+/* Create rule for h1 tags and set the font to 26px with a font-face of tahoma.  set the color to light blue */
+
+form {
+  /* Add 25px of padding all around the form */
+  /* set the border to a solid border 1px width and black */
+}
+
+a {
+  /* set the color equal to a light gray */
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0;
+}

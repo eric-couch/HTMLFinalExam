@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SD 101 - Final Lab Exam</title>
+    <!--Add links for styles.css, and main.js-->
+  </head>
+  <body>
+    <h3>Voter E-Registration</h3>
+    <hr />
+
+    <!--forms begin-->
+    <form name="myForm" id="myForm" action="#">
+      <!--fieldset tag puts box around form-->
+      <fieldset>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" />
+        <span id="NameMessage"></span>
+        <p>
+          <label for="Gender">Gender</label>
+          <input id="GenderM" name="Gender" type="radio" value="male" />
+          male
+          <input id="GenderF" name="Gender" type="radio" value="female" />
+          female
+          <span id="GenderMessage"></span>
+        </p>
+        <p>
+          <label for="Citizen">Are you a U.S. Citizen?</label>
+          <input id="Citizen" type="checkbox" name="Citizen" /> check if yes
+          <!-- add a error message span for Citizen checkbox-->
+        </p>
+        <p>
+          <label for="County">County of Residence</label>
+          <select id="County" name="County">
+            <option></option>
+            <option value="Dallas">Dallas</option>
+            <option value="Collin">Collin</option>
+            <option value="Denton">Denton</option>
+            <option value="Johnson">Johnson</option>
+            <!-- Add an opion for Tarrant County-->
+          </select>
+          <span id="CountyMessage"></span>
+        </p>
+        <p>
+          <label for="Age">Age</label>
+          <input type="number" id="Age" name="Age" />
+          <!-- make Age accept no less than 18 -->
+          <span id="AgeMessage"></span>
+        </p>
+        <p>
+          <!--Add email label and email input and error message span for email -->
+        </p>
+        <p>
+          <button id="sub">Submit</button>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
